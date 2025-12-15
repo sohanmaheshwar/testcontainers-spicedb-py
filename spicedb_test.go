@@ -16,7 +16,7 @@ func TestSpiceDB(t *testing.T) {
 	ctx := context.Background()
 
 	container, err := Run(ctx,
-		"authzed/spicedb:v1.33.0",
+		"authzed/spicedb:v1.47.1",
 	)
 	if err != nil {
 		t.Fatal(err)
@@ -57,7 +57,7 @@ func TestSpiceDBSecretCustomizer(t *testing.T) {
 		SecretKey: secretKey,
 	}
 	container, err := Run(ctx,
-		"authzed/spicedb:v1.33.0",
+		"authzed/spicedb:v1.47.1",
 		customizer,
 	)
 	if err != nil {
@@ -104,7 +104,7 @@ func TestSpiceModelCustomizer(t *testing.T) {
 		Model:     testdata.MODEL,
 	}
 	container, err := Run(ctx,
-		"authzed/spicedb:v1.33.0",
+		"authzed/spicedb:v1.47.1",
 		modelCustomizer,
 	)
 	if err != nil {

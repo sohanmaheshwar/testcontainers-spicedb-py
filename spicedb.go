@@ -42,7 +42,7 @@ func (c *spiceDBContainer) GetEndpoint(_ context.Context) string {
 // Deprecated: use Run instead
 // RunContainer creates an instance of the spiceDB container type
 func RunContainer(ctx context.Context, opts ...testcontainers.ContainerCustomizer) (*spiceDBContainer, error) {
-	return Run(ctx, "authzed/spicedb:v1.33.0", opts...)
+	return Run(ctx, "authzed/spicedb:v1.47.1", opts...)
 }
 
 // Run creates an instance of the spiceDB container type

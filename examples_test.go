@@ -12,7 +12,7 @@ func ExampleRunContainer() {
 	// runspiceDBContainer {
 	ctx := context.Background()
 
-	spicedbContainer, err := spicedb.Run(ctx, "authzed/spicedb:v1.33.0")
+	spicedbContainer, err := spicedb.Run(ctx, "authzed/spicedb:v1.47.1")
 	if err != nil {
 		log.Fatalf("failed to start container: %s", err)
 	}
