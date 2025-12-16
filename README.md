@@ -2,15 +2,11 @@
 
 Python module for Testcontainers that provides a SpiceDB container for integration testing.
 
-This is a Python port of the Go testcontainers-spicedb module. All credit to @Mariscal6 for the [original module](https://github.com/Mariscal6/testcontainers-spicedb-go)
+This is a Python port of the Go `testcontainers-spicedb` module. All credit to @Mariscal6 for the [original module](https://github.com/Mariscal6/testcontainers-spicedb-go)
 
 ## Installation
 
-```bash
-pip install testcontainers-spicedb
-```
-
-Or install from source:
+Install from source:
 
 ```bash
 pip install -e .
