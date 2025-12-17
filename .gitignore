@@ -13,6 +13,7 @@ src/pip-delete-this-directory.txt
 TEST-*.xml
 
 tcvenv
+tc-spicedb/
 
 **/go.work
 

@@ -4,12 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "testcontainers-spicedb"
-version = "0.1.0"
-description = "Testcontainers module for SpiceDB"
+version = "0.1.2"
+description = "Python module for Testcontainers that provides a SpiceDB container for integration testing."
 readme = "README.md"
 requires-python = ">=3.8"
 authors = [
-    {name = "Your Name", email = "your.email@example.com"}
+    {name = "Sohan Maheshwar", email = "sohan.maheshwar@authzed.com"}
 ]
 keywords = ["testcontainers", "spicedb", "testing"]
 classifiers = [
@@ -28,6 +28,12 @@ dependencies = [
     "authzed>=0.10.0",
     "grpcio>=1.50.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/sohanmaheshwar/testcontainers-spicedb-py"
+Documentation = "https://github.com/sohanmaheshwar/testcontainers-spicedb-py#readme"
+Repository = "https://github.com/sohanmaheshwar/testcontainers-spicedb-py"
+Issues = "https://github.com/sohanmaheshwar/testcontainers-spicedb-py/issues"
 
 [project.optional-dependencies]
 dev = [

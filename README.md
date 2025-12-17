@@ -6,7 +6,11 @@ This is a Python port of the Go `testcontainers-spicedb` module. All credit to @
 
 ## Installation
 
-Install from source:
+```bash
+pip install testcontainers-spicedb
+```
+
+Or install from source:
 
 ```bash
 pip install -e .
@@ -18,6 +22,8 @@ pip install -e .
 - Docker
 
 ## Usage
+
+Ensure Docker is running on your system.
 
 ### Basic Usage
 
