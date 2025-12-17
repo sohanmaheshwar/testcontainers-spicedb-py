@@ -1,10 +1,9 @@
 """SpiceDB testcontainer module."""
 
 from typing import Optional, Callable
-import time
 from testcontainers.core.container import DockerContainer
 from testcontainers.core.waiting_utils import wait_for_logs
-from authzed.api.v1 import Client, WriteSchemaRequest
+from authzed.api.v1 import WriteSchemaRequest
 
 DEFAULT_SECRET_KEY = "somepresharedkey"
 DEFAULT_IMAGE = "authzed/spicedb:v1.47.1"

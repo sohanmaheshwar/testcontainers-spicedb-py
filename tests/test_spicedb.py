@@ -1,6 +1,5 @@
 """Tests for SpiceDB testcontainer module."""
 
-import pytest
 from grpcutil import insecure_bearer_token_credentials
 from authzed.api.v1 import (
     Client,
